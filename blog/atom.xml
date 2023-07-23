@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://dev-strender.github.io/blog</id>
+    <title>@dev-strender Blog</title>
+    <updated>2023-07-23T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://dev-strender.github.io/blog"/>
+    <subtitle>@dev-strender Blog</subtitle>
+    <icon>https://dev-strender.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[example-second-page]]></title>
+        <id>example-second-page</id>
+        <link href="https://dev-strender.github.io/blog/2023/07/23/example-second-page"/>
+        <updated>2023-07-23T00:00:00.000Z</updated>
+        <author>
+            <name>dev-strender</name>
+            <uri>https://github.com/dev-strender</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[example-first-page]]></title>
+        <id>example-first-page</id>
+        <link href="https://dev-strender.github.io/blog/2023/07/22/example-first-page"/>
+        <updated>2023-07-22T00:00:00.000Z</updated>
+        <author>
+            <name>dev-strender</name>
+            <uri>https://github.com/dev-strender</uri>
+        </author>
+    </entry>
+</feed>

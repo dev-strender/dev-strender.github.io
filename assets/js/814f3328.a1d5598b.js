@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_til=self.webpackChunkmy_til||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"example-second-page","permalink":"/blog/2023/07/23/example-second-page"},{"title":"example-first-page","permalink":"/blog/2023/07/22/example-first-page"}]}')}}]);
