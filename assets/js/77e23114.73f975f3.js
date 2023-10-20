@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_til=self.webpackChunkmy_til||[]).push([[74],{7217:t=>{t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/tutorial","name":"tutorial","count":2,"permalink":"/blog/tags/tutorial"}')}}]);

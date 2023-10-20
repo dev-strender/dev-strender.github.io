@@ -9,22 +9,26 @@
     <icon>https://dev-strender.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[example-second-page]]></title>
-        <id>example-second-page</id>
+        <id>https://dev-strender.github.io/blog/2023/07/23/example-second-page</id>
         <link href="https://dev-strender.github.io/blog/2023/07/23/example-second-page"/>
         <updated>2023-07-23T00:00:00.000Z</updated>
         <author>
             <name>dev-strender</name>
             <uri>https://github.com/dev-strender</uri>
         </author>
+        <category label="example" term="example"/>
+        <category label="tutorial" term="tutorial"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[example-first-page]]></title>
-        <id>example-first-page</id>
+        <id>https://dev-strender.github.io/blog/2023/07/22/example-first-page</id>
         <link href="https://dev-strender.github.io/blog/2023/07/22/example-first-page"/>
         <updated>2023-07-22T00:00:00.000Z</updated>
         <author>
             <name>dev-strender</name>
             <uri>https://github.com/dev-strender</uri>
         </author>
+        <category label="example" term="example"/>
+        <category label="tutorial" term="tutorial"/>
     </entry>
 </feed>

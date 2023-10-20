@@ -7,17 +7,22 @@
         <lastBuildDate>Sun, 23 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
         <item>
             <title><![CDATA[example-second-page]]></title>
             <link>https://dev-strender.github.io/blog/2023/07/23/example-second-page</link>
-            <guid>example-second-page</guid>
+            <guid>https://dev-strender.github.io/blog/2023/07/23/example-second-page</guid>
             <pubDate>Sun, 23 Jul 2023 00:00:00 GMT</pubDate>
+            <category>example</category>
+            <category>tutorial</category>
         </item>
         <item>
             <title><![CDATA[example-first-page]]></title>
             <link>https://dev-strender.github.io/blog/2023/07/22/example-first-page</link>
-            <guid>example-first-page</guid>
+            <guid>https://dev-strender.github.io/blog/2023/07/22/example-first-page</guid>
             <pubDate>Sat, 22 Jul 2023 00:00:00 GMT</pubDate>
+            <category>example</category>
+            <category>tutorial</category>
         </item>
     </channel>
 </rss>
