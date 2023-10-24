@@ -1,6 +1,8 @@
 ---
 # sidebar_position: 3
 title: 파일 복사시 심링크 제거
+description: 파일 복사시 추가 옵션에 대한 설명을 적습니다.
+keywords: ['file copy', '파일복사']
 ---
 
 # 파일 복사할때 symlink를 해제하여 복사하는 방법

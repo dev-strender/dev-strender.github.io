@@ -13,7 +13,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'dev-strender', // Usually your GitHub org/user name.
   projectName: 'dev-strender.github.io', // Usually your repo name.
-
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -23,12 +22,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           trackingID: 'UA-60171104-1',
           anonymizeIP: true,
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['tags/**'],
+          filename: 'sitemap.xml',
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         blog: {
+          // archiveBasePath: "archive",
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
@@ -58,6 +64,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Series',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog/archive', label: 'Archive', position: 'left'},
+          {to: '/tags', label: 'Tags', position: 'left'},
           {
             label: 'About Me', position: 'right', href: 'https://github.com/dev-strender',
           }
@@ -70,6 +78,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ["haskell", "kotlin", "toml", "docker"],
       },
     }),
 });
