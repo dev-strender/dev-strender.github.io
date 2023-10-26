@@ -65,7 +65,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/blog/archive', label: 'Archive', position: 'left'},
-          {to: '/tags', label: 'Tags', position: 'left'},
+          {to: '/blog/tags', label: 'Tags', position: 'left'},
           {
             label: 'About Me', position: 'right', href: 'https://github.com/dev-strender',
           }
