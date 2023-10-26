@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_til=self.webpackChunkmy_til||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"[Book] \uc0dd\uc874\uc744 \ub118\uc5b4 \ubc88\ucc3d\uc73c\ub85c","permalink":"/blog/2023/10/26/beyond-survival-to-prosperity"},{"title":"example-second-page","permalink":"/blog/2023/07/23/example-second-page"}]}')}}]);

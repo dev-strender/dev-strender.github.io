@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_til=self.webpackChunkmy_til||[]).push([[85],{7497:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/management-strategy","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
