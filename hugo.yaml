@@ -1,5 +1,15 @@
 # Hugo configuration file
-title: My Site
+title: Strender Blog
+
+enableRobotsTXT: true
+enableGitInfo: true
+hasCJKLanguage: true
+
+# services:
+#   googleAnalytics:
+#     ID: G-MEASUREMENT-ID
+
+
 
 # import hextra as module
 module:
@@ -7,25 +17,24 @@ module:
   - path: github.com/imfing/hextra
 
 markup:
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
   # allow raw html
   goldmark:
     renderer:
       unsafe: true
 
-  # enable hextra syntax highlight
-  highlight:
-    noClasses: false
-
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Blog
+      pageRef: /blog
       weight: 1
+    # - name: Docs
+    #   pageRef: /docs
+    #   weight: 2
     - name: About
       pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
       weight: 3
     - name: Search
       weight: 4
@@ -33,24 +42,57 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/dev-strender"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+  
+  page:
+    # full (100% ), wide (90 rem), normal (1280x)
+    width: normal
+  
+  theme:
+    default: system
+    displayToggle: true
 
   footer:
-    displayCopyright: false
-    displayPoweredBy: true
-
-  editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+  
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      index: content
+      tokenize: forward
+
+  blog:
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc
+
+    article:
+      displayPagination: true
+
+  highlight:
+    copy:
+      enable: true
+      display: hover
+  
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: something
+      repoId: something
+      category: General
+      categoryId: something
