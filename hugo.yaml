@@ -5,9 +5,9 @@ enableRobotsTXT: true
 enableGitInfo: true
 hasCJKLanguage: true
 
-# services:
-#   googleAnalytics:
-#     ID: G-MEASUREMENT-ID
+services:
+  googleAnalytics:
+    ID: G-3B9DL70GBC
 
 
 
