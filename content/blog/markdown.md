@@ -1,5 +1,6 @@
 ---
 title: First tutorial writing
+comments: true
 date: 2025-03-01
 authors:
   - name: dev-strender

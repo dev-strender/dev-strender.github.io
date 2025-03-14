@@ -88,11 +88,11 @@ params:
       display: hover
   
   comments:
-    enable: false
+    enable: true
     type: giscus
 
     giscus:
-      repo: something
-      repoId: something
-      category: General
-      categoryId: something
+      repo: dev-strender/dev-strender.github.io
+      repoId: R_kgDOOCaUAg
+      category: Comments
+      categoryId: DIC_kwDOOCaUAs4CoB9J
