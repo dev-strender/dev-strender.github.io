@@ -1,2 +1,2 @@
 dev:
-	hugo mod tidy && hugo server -p 1313
+	hugo mod tidy && hugo server --logLevel debug disableFastRender -p 1313
